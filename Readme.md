@@ -9,6 +9,7 @@
 * Drawdown = -31.51%
 
 程式碼:
+
 def initialize(context):
     context.security = [sid(24),sid(16841)]
     schedule_function(rebalance, date_rule=date_rules.every_day())
